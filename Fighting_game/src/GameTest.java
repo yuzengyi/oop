@@ -1,9 +1,11 @@
 public class GameTest {
     public static void main(String[] args) {
         //role1
-        Role r1 = new Role("qiaofeng",100);
-        Role r2 = new Role("jiumozhi",100);
+        Role r1 = new Role("ÇÇ·å",100,'ÄÐ');
+        Role r2 = new Role("ð¯Ä¦ÖÇ",100,'ÄÐ');
 
+        r1.showRoleInfo();
+        r2.showRoleInfo();
         //start fighting
         while(true){
             r1.attack(r2);
